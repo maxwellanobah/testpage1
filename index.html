@@ -12,7 +12,7 @@
             //Get Country and Region via IP-API
             var endpoint = 'https://api.ipdata.co?api-key=abe7c1419edfc16608ed33557fc300880937c1e90360b88843c4be0d&fields=ip,region_code,country_code';
             var xhr = new XMLHttpRequest();
-            try {
+            try {c
                 xhr.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
                         var response = JSON.parse(this.responseText);
